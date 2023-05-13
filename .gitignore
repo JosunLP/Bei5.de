@@ -794,3 +794,4 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/vue,vuejs,visualstudio,visualstudiocode,rider,intellij,intellij+all,node
 
 package-lock.json
+.quasar
