@@ -10,26 +10,17 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
+        <q-toolbar-title
+          ><a href="/" class="title"> Bei5.de </a></q-toolbar-title
+        >
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Shop v.{{ version }}</div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
+    <q-drawer v-model="leftDrawerOpen" bordered>
       <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
+        <q-item-label header> Navigation </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -48,69 +39,88 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import EssentialLink from 'components/EssentialLink.vue';
+import { version } from '../../package.json';
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Index',
+    caption: 'Willkomen bei Bei5.de',
+    icon: 'home',
+    link: '/',
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Shop',
+    caption: 'Hier kannst du einkaufen',
+    icon: 'shopping_cart',
+    link: '#/shop',
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'About',
+    caption: 'Über uns',
+    icon: 'info',
+    link: '#/about',
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'Contact',
+    caption: 'Kontaktiere uns',
+    icon: 'email',
+    link: '#/contact',
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    title: 'Impressum',
+    caption: 'Impressum',
+    icon: 'description',
+    link: '#/impressum',
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    title: 'Datenschutz',
+    caption: 'Datenschutz',
+    icon: 'description',
+    link: '#/datenschutz',
   },
   {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
+    title: 'Login',
+    caption: 'Login',
+    icon: 'login',
+    link: '#/login',
+  },
+  {
+    title: 'Register',
+    caption: 'Register',
+    icon: 'login',
+    link: '#/register',
+  },
 ];
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    EssentialLink,
   },
 
-  setup () {
-    const leftDrawerOpen = ref(false)
+  setup() {
+    const leftDrawerOpen = ref(false);
 
     return {
       essentialLinks: linksList,
       leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
-  }
+      version: version,
+      toggleLeftDrawer() {
+        leftDrawerOpen.value = !leftDrawerOpen.value;
+      },
+    };
+  },
 });
 </script>
+
+<style lang="sass" scoped>
+.title
+  color: white
+  text-decoration: none
+  font-size: 1.5em
+  font-weight: bold
+  &:hover
+    color: white
+    text-decoration: none
+</style>
