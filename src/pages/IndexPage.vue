@@ -1,11 +1,7 @@
 <template>
   <q-page class="items-center justify-evenly">
     <div class="home-header">
-      <q-img
-        src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg"
-        class="q-ma-md"
-        style="max-width: 250px"
-      />
+      <q-img src="/svg/Logo.svg" class="q-ma-md" style="max-width: 250px" />
       <h1 class="text-h1">Willkommen bei Bei5.de</h1>
       <h2 class="text-h4">
         Ihr Fachhandel für Medizinische Beißhölzer und mehr!
