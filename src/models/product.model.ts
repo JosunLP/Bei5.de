@@ -1,3 +1,5 @@
+import { Recension } from './recension.model';
+
 /**
  * Product model
  */
@@ -10,6 +12,7 @@ export class Product {
   public category: string;
   public quantity: number;
   public rating: number;
+  public recensions: Recension[];
 
   constructor(
     name: string,
@@ -18,7 +21,8 @@ export class Product {
     image: string,
     category: string,
     quantity: number,
-    rating: number
+    rating: number,
+    recensions: Recension[]
   ) {
     this.name = name;
     this.price = price;
@@ -27,5 +31,6 @@ export class Product {
     this.category = category;
     this.quantity = quantity;
     this.rating = rating;
+    this.recensions = recensions;
   }
 }
