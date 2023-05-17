@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "name": "Der Klassiker!",
+      "price": 112,
+      "description": "Tauchen Sie ein in die zeitlose Einfachheit und natürliche Schönheit des klassischen Beißholzes aus Holz. Dieses traditionelle Kauwerkzeug bietet Ihnen ein authentisches und beruhigendes Kauerlebnis, das die Sinne anspricht. Hergestellt aus hochwertigem Holz, ist dieses Beißholz langlebig, glatt und angenehm zu halten. Die einfache, aber effektive Formgebung ermöglicht es Ihnen, Ihren Kiefer zu trainieren, Stress abzubauen und den Drang zu kauen zu befriedigen. Ob für medizinische Zwecke, zum Zahnen von Babys oder als vielseitiges Werkzeug in Ihren persönlichen Ritualen und Gewohnheiten, dieses klassische Holzbeißholz wird Sie mit seiner natürlichen Anziehungskraft und unverwechselbaren Wärme begeistern. Greifen Sie zum Klassiker und genießen Sie das zeitlose Vergnügen des Kauens!",
+      "image": "wood.jpg",
+      "category": "Medical",
+      "quantity": 10,
+      "recensions": [
+        {
+          "title": "Auf Station Ausprobiert, SUPER!",
+          "name": "S. Hansen",
+          "rating": 5,
+          "comment": "Ich war skeptisch, als ich mir dieses Beißholz bestellt habe, aber es hat mich positiv überrascht! Es ist nicht nur äußerst praktisch für meinen medizinischen Bedarf, sondern es hat auch meine Katze dazu gebracht, mich mit großen Augen anzustarren, als ob ich verrückt geworden wäre. Doppelter Spaß für mich und mein Haustier!"
+        },
+        {
+          "title": "Die Großbestellung hat sich gelohnt!",
+          "name": "J. F. J.",
+          "rating": 4.5,
+          "comment": "Ich habe diese Beißstange für einen medizinischen Notfall gekauft, und ich muss sagen, ich habe sie mehr benutzt, als ich erwartet hatte. Sie hat nicht nur meinen Zahnarztbesuch angenehmer gemacht, sondern sie hat auch als praktisches Werkzeug gedient, um meine nervigen Nachbarn fernzuhalten. Ein vielseitiges und lustiges Produkt!"
+        },
+        {
+          "title": "Huiiii!",
+          "name": "K. Reed",
+          "rating": 4,
+          "comment": "Ich habe diese Beißstange als Geschenk für meine Partnerin gekauft, und wir haben gemeinsam Tränen gelacht! Es hat unsere Beziehung auf eine ganz neue Ebene gebracht. Wer hätte gedacht, dass ein kleines Holzstück so viel Spaß machen kann? Wenn du nach einem aufregenden und unkonventionellen Geschenk suchst, dann ist das hier genau das Richtige!"
+        },
+        {
+          "title": "Ein tolles Produkt!",
+          "name": "D. Vannhag",
+          "rating": 5,
+          "comment": "Ich habe mir diese Beißstange gekauft, um meine Zahnarztangst zu überwinden, und sie hat Wunder bewirkt! Jedes Mal, wenn ich das Bedürfnis verspüre, vor Angst zu schreien, beiße ich einfach fest zu. Es lenkt mich ab und lässt mich vergessen, dass ich gerade in einem Zahnarztstuhl gefangen bin. Ein Muss für alle, die Angst vorm Zahnarzt haben."
+        }
+      ]
+    },
+    {
+      "name": "Der Newcomer!",
+      "price": 224,
+      "description": "Entdecken Sie das revolutionäre Beißholz der modernen Zeit! Unsere moderne Version aus hochwertigem Gummi vereint Komfort, Funktionalität und einen Hauch von Spaß. Das weiche und flexible Material bietet ein angenehmes Kauerlebnis und ist dabei sanft zu Ihren Zähnen und dem Kiefer. Egal, ob Sie es für medizinische Zwecke, als Stressabbau oder als Spielzeug in Ihrem Fetischrepertoire verwenden möchten, diese Gummiversion wird Sie begeistern. Mit ihrer ansprechenden Optik und ihrem zeitgemäßen Design ist sie ein wahrer Blickfang. Verabschieden Sie sich von langweiligen Beißhölzern und erleben Sie die neue Ära des Kauvergnügens!",
+      "image": "rubber.png",
+      "category": "Medical",
+      "quantity": 20,
+      "recensions": [
+        {
+          "title": "Quitscht ein bisschen, aber sonst gut!",
+          "name": "L. Dollar",
+          "rating": 5,
+          "comment": "Diese moderne Gummi-Beißstange hat meine Erwartungen übertroffen! Sie ist nicht nur langlebig und widerstandsfähig, sondern auch super hygienisch. Ich kann sie problemlos reinigen und desinfizieren, was mir ein beruhigendes Gefühl gibt. Ich benutze sie nicht nur für medizinische Zwecke, sondern auch als lustiges Spielzeug für meine Haustiere!"
+        },
+        {
+          "title": "Kann man gut werfen!",
+          "name": "J. J. Lopez",
+          "rating": 3,
+          "comment": "Wow, ich bin beeindruckt! Diese Gummiversion des Beißholzes ist so viel bequemer als erwartet. Sie passt sich perfekt meinem Kiefer an und sorgt für ein angenehmes Kauerlebnis. Ich habe das Gefühl, dass ich mein Stresslevel mit jedem Biss reduzieren kann. Eine großartige Erfindung!"
+        },
+        {
+          "title": "Lecker im Nachgang!",
+          "name": "M. Gundalf",
+          "rating": 3,
+          "comment": "Diese moderne Gummiversion des Beißholzes hat mich umgehauen! Sie ist so flexibel und weich, dass es sich fast anfühlt, als würde man auf einer Wolke kauen. Ich habe das Gefühl, dass ich meinen Stress einfach wegbeißen kann. Eine absolute Empfehlung für alle, die nach einem modernen Twist suchen"
+        },
+        {
+          "title": "Ich kann nicht mehr ohne!",
+          "name": "J. Rias",
+          "rating": 5,
+          "comment": "Ich muss zugeben, dass ich anfangs skeptisch war, als ich dieses Gummibeißholz bestellt habe, aber ich wurde positiv überrascht! Es ist so angenehm auf meinen Zähnen und hinterlässt keine unangenehmen Geschmäcker im Mund. Außerdem sieht es wirklich stylisch aus - ein echter Hingucker!"
+        },
+        {
+          "title": "Eignet sich auch als Spielzeug!",
+          "name": "R. Adams",
+          "rating": 5,
+          "comment": "Ich habe dieses Gummi-Beißholz für meinen Sohn gekauft, der gerade mit dem Zahnungsprozess kämpft. Es ist unglaublich hilfreich! Die weiche Gummi-Textur lindert seinen Schmerz und gibt ihm etwas zum Kauen. Außerdem ist es bunt und lustig gestaltet, was ihn zum Lachen bringt. Eine tolle Lösung für zahnende Babys!"
+        }
+      ]
+    },
+    {
+      "name": "Die Zukunft!",
+      "price": 337,
+      "description": "Willkommen in der Zukunft des Kauens! Unsere moderne, technische Version des Beißholzes aus hochwertigem Metall wird Sie in Staunen versetzen. Das glänzende Metall in Kombination mit innovativen Funktionen macht dieses Beißholz zu einem echten High-Tech-Produkt. Genießen Sie die präzise Verarbeitung und die futuristische Optik, während Sie Ihren Kiefer trainieren und Stress abbauen. Mit eingebauten Vibrationsfunktionen, LED-Lichtern oder sogar einem Bluetooth-Lautsprecher eröffnet Ihnen dieses Beißholz völlig neue Dimensionen des Kauerlebnisses. Ob für den medizinischen Bereich, den Fetischgebrauch oder einfach nur als einzigartiges Gadget, dieses Beißholz der nächsten Generation wird Ihre Erwartungen übertreffen.",
+      "image": "cyber.png",
+      "category": "Medical",
+      "quantity": 30,
+      "recensions": [
+        {
+          "title": "Cyber Cyber!",
+          "name": "C. Breyer",
+          "rating": 5,
+          "comment": "Diese metallische Beißstange ist einfach unglaublich! Sie ist so glatt und kühl auf meinen Zähnen, es ist fast wie ein erfrischender Hauch von Metall. Die eingebauten LED-Lichter sorgen für eine zusätzliche Stimmungsaufhellung. Es ist definitiv ein Beißholz der nächsten Generation!"
+        },
+        {
+          "title": "Fast wie mein Thermometer!",
+          "name": "M. Fire",
+          "rating": 4,
+          "comment": "Ich habe dieses technische Metall-Beißholz als Geschenk für meinen Freund gekauft, der gerne Gadgets mag. Er war absolut begeistert! Die eingebaute Temperaturkontrolle sorgt für ein angenehmes Kauerlebnis, und die edle Optik beeindruckt jeden, der es sieht. Ein einzigartiges Geschenk für Technikliebhaber!"
+        },
+        {
+          "title": "Ein Multitool! Krass!",
+          "name": "D. Blank",
+          "rating": 4,
+          "comment": "Diese moderne, technische Version des Beißholzes aus Metall ist absolut faszinierend! Sie sieht nicht nur futuristisch aus, sondern verfügt auch über eingebaute Vibrationen, die ein intensives Kauerlebnis bieten. Ich hatte nie gedacht, dass ein Beißholz so aufregend sein kann. Ein echtes High-Tech-Produkt"
+        }
+      ]
+    },
+    {
+      "name": "Der Verspielte!",
+      "price": 404,
+      "description": "Treffen Sie unsere außergewöhnliche Ball-Beißstange mit fixierbarem Gurt! Dieses einzigartige Beißholz in Form eines Gummiballs kombiniert Spielspaß mit Komfort und Funktionalität. Der weiche und flexible Gummiball ist angenehm zu kauen und bietet ein stimulierendes Mundgefühl. Mit dem fixierbaren Gurt können Sie das Beißholz sicher und bequem an Ort und Stelle halten, während Sie Ihren Aktivitäten nachgehen. Egal, ob Sie es für medizinische Zwecke, als Fetischspielzeug oder als originelles Accessoire verwenden möchten, diese ungewöhnliche Version wird Ihre Neugier wecken und Ihren Kiefer verwöhnen. Entdecken Sie eine völlig neue Art des Kauvergnügens mit dieser unkonventionellen Ball-Beißstange mit fixierbarem Gurt aus Gummi.",
+      "image": "ball.png",
+      "category": "Medical",
+      "quantity": 40,
+      "recensions": [
+        {
+          "title": "So bunt!",
+          "name": "O. d. Santos",
+          "rating": 5,
+          "comment": "Diese Ball-Beißstange mit Gummigurt ist einfach nur spaßig! Der Gummiball ist so bunt und verspielt, dass er mich zum Lachen bringt. Der Gurt hält das Beißholz sicher an meinem Handgelenk, so dass ich es immer griffbereit habe. Eine lustige und ungewöhnliche Ergänzung für meine Spielzeugsammlung!"
+        },
+        {
+          "title": "Federleicht!",
+          "name": "N. Feather",
+          "rating": 4,
+          "comment": "Diese ungewöhnliche Gummiball-Beißstange mit dem fixierbaren Gurt ist einfach genial! Es sieht nicht nur lustig aus, sondern bietet auch eine praktische Möglichkeit, das Beißholz an Ort und Stelle zu halten. Der Gummiball ist angenehm zu kauen und der Gurt sorgt dafür, dass ich es nicht verliere. Ein echter Hingucker!"
+        }
+      ]
+    }
+  ]
+}

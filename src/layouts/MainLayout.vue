@@ -28,6 +28,13 @@
           v-bind="link"
         />
       </q-list>
+      <q-item-label footer class="dev-info">
+        Developed by
+        <a href="https://josunlp.de" target="_blank">JosunLP.de</a> <br />
+        <a href="https://github.com/JosunLP/Bei5.de" target="_blank"
+          >Source Code</a
+        >
+      </q-item-label>
     </q-drawer>
 
     <q-page-container>
@@ -61,7 +68,7 @@ const linksList = [
     link: '#/about',
   },
   {
-    title: 'Contact',
+    title: 'Kontakt',
     caption: 'Kontaktiere uns',
     icon: 'email',
     link: '#/contact',
@@ -82,13 +89,13 @@ const linksList = [
     title: 'Login',
     caption: 'Login',
     icon: 'login',
-    link: '#/login',
+    link: '#/um',
   },
   {
     title: 'Register',
     caption: 'Register',
     icon: 'login',
-    link: '#/register',
+    link: '#/um',
   },
 ];
 
@@ -115,6 +122,7 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
+
 .title
   color: white
   text-decoration: none
@@ -123,4 +131,27 @@ export default defineComponent({
   &:hover
     color: white
     text-decoration: none
+
+header
+  background-color: $secondary
+  color: white
+  min-height: 5rem
+
+  .q-toolbar
+    min-height: 5rem
+
+.dev-info
+  font-size: 0.8em
+  text-align: center
+  margin-top: 1rem
+  bottom: 0
+  left: 0
+  right: 0
+
+  a
+    color: $secondary
+    text-decoration: none
+    &:hover
+      color: $secondary
+      text-decoration: underline
 </style>

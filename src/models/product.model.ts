@@ -11,7 +11,6 @@ export class Product {
   public image: string;
   public category: string;
   public quantity: number;
-  public rating: number;
   public recensions: Recension[];
 
   constructor(
@@ -21,7 +20,6 @@ export class Product {
     image: string,
     category: string,
     quantity: number,
-    rating: number,
     recensions: Recension[]
   ) {
     this.name = name;
@@ -30,7 +28,24 @@ export class Product {
     this.image = image;
     this.category = category;
     this.quantity = quantity;
-    this.rating = rating;
     this.recensions = recensions;
+  }
+
+  public get rating() {
+    return Product.calculateRating(this.recensions);
+  }
+
+  private static calculateRating(r: Recension[]) {
+    const ratings: number[] = [];
+    let sum = 0;
+
+    for (const recension of r) {
+      ratings.push(recension.rating);
+    }
+
+    for (const rating of ratings) {
+      sum += rating;
+    }
+    return sum / ratings.length;
   }
 }
