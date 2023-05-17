@@ -2,7 +2,7 @@
 
 A 'Webshop' for the Pepega Island Arma3 Server
 
-<img src="https://github.com/JosunLP/Bei5.de/blob/main/public/svg/Logo.svg" width="200" height="200">
+<img src="https://github.com/JosunLP/Bei5.de/blob/main/public/svg/LogoStar.svg" width="200" height="200">
 
 ## Install the dependencies
 
