@@ -61,7 +61,7 @@ const linksList = [
     link: '#/about',
   },
   {
-    title: 'Contact',
+    title: 'Kontakt',
     caption: 'Kontaktiere uns',
     icon: 'email',
     link: '#/contact',
@@ -82,13 +82,13 @@ const linksList = [
     title: 'Login',
     caption: 'Login',
     icon: 'login',
-    link: '#/login',
+    link: '#/um',
   },
   {
     title: 'Register',
     caption: 'Register',
     icon: 'login',
-    link: '#/register',
+    link: '#/um',
   },
 ];
 
