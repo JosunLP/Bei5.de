@@ -9,16 +9,16 @@
       "quantity": 10,
       "recensions": [
         {
-          "title": "User 1",
-          "name": "User 1",
+          "title": "Auf Station Ausprobiert, SUPER!",
+          "name": "O. d. S.",
           "rating": 5,
-          "comment": "This is a comment"
+          "comment": "Ich war skeptisch, als ich mir dieses Beißholz bestellt habe, aber es hat mich positiv überrascht! Es ist nicht nur äußerst praktisch für meinen medizinischen Bedarf, sondern es hat auch meine Katze dazu gebracht, mich mit großen Augen anzustarren, als ob ich verrückt geworden wäre. Doppelter Spaß für mich und mein Haustier!"
         },
         {
-          "title": "User 2",
-          "name": "User 2",
-          "rating": 4,
-          "comment": "This is a comment"
+          "title": "Die Großbestellung hat sich gelohnt!",
+          "name": "J. F. J.",
+          "rating": 4.5,
+          "comment": "Ich habe diese Beißstange für einen medizinischen Notfall gekauft, und ich muss sagen, ich habe sie mehr benutzt, als ich erwartet hatte. Sie hat nicht nur meinen Zahnarztbesuch angenehmer gemacht, sondern sie hat auch als praktisches Werkzeug gedient, um meine nervigen Nachbarn fernzuhalten. Ein vielseitiges und lustiges Produkt!"
         }
       ]
     },

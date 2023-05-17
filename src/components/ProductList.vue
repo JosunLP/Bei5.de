@@ -76,7 +76,7 @@ export default defineComponent({
     function showDetails(p: Product) {
       $q.dialog({
         title: 'ProductDetails',
-        message: `<div><b>Product:</b> ${p.name} <br> <b>Price:</b> ${p.price} € <br> <b>Description:</b> ${p.description}</div>`,
+        message: `<div><b>Product:</b> ${p.name} <br> <b>Price:</b> ${p.price} € <br> Rating: ${p.rating}/5 <br> <b>Description:</b> ${p.description}</div>`,
         persistent: true,
         html: true,
         class: 'bg-primary text-white q-pa-md text-h6',
@@ -90,10 +90,10 @@ export default defineComponent({
         },
       })
         .onOk(() => {
-          $toast.error('Ein fehler ist beim kauf aufgetreten!', 5000);
+          $toast.error('Ein Fehler ist beim Kauf aufgetreten!', 5000);
         })
         .onCancel(() => {
-          $toast.info('Der kauf wurde abgebrochen!', 5000);
+          $toast.info('Der Kauf wurde abgebrochen!', 5000);
         });
     }
     return { showDetails };

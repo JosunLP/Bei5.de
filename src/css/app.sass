@@ -21,7 +21,7 @@
   @include respond-to(medium-screens)
     font-size: 3rem
   @include respond-to(wide-screens)
-    font-size: 8rem
+    font-size: 5rem
   text-align: center
   margin-top: 5rem
   line-height: 1.2
@@ -57,3 +57,12 @@
   .q-card
     max-width: 70rem !important
     width: 100% !important
+
+// custom scrollbar
+::-webkit-scrollbar
+  width: 1rem
+  height: 1rem
+  background-color: $secondary
+
+::-webkit-scrollbar-thumb
+  background-color: $accent

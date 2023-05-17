@@ -28,6 +28,10 @@
           v-bind="link"
         />
       </q-list>
+      <q-item-label footer class="dev-info">
+        Developed by <a href="https://josunlp.de">JosunLP.de</a> <br />
+        <a href="https://github.com/JosunLP/Bei5.de">Source Code</a>
+      </q-item-label>
     </q-drawer>
 
     <q-page-container>
@@ -132,4 +136,19 @@ header
 
   .q-toolbar
     min-height: 5rem
+
+.dev-info
+  font-size: 0.8em
+  text-align: center
+  margin-top: 1rem
+  bottom: 0
+  left: 0
+  right: 0
+
+  a
+    color: $secondary
+    text-decoration: none
+    &:hover
+      color: $secondary
+      text-decoration: underline
 </style>

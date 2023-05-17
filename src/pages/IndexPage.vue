@@ -1,11 +1,11 @@
 <template>
   <q-page class="items-center justify-evenly">
     <div class="home-header">
-      <q-img src="/svg/LogoStar.svg" class="q-ma-md" style="max-width: 250px" />
+      <q-img src="/svg/LogoStar.svg" class="q-ma-md Logo" />
       <h1 class="text-h1">Willkommen bei Bei5.de</h1>
-      <h2 class="text-h4">
+      <h4 class="text-h4">
         Ihr Fachhandel für Medizinische Beißhölzer und mehr!
-      </h2>
+      </h4>
 
       <q-btn
         class="q-mt-md shop-button"
@@ -64,6 +64,40 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
+@import '../css/_mixins'
+
+.Logo
+  margin-top: 2rem
+  margin-bottom: 0
+  overflow: visible
+  @include respond-to(handhelds)
+    height: 200px
+    width: 200px
+  @include respond-to(medium-screens)
+    height: 300px
+    width: 300px
+  @include respond-to(large-screens)
+    height: 400px
+    width: 400px
+
+.text-h1
+  font-size: 3rem
+  line-height: 1.2
+  margin-top: 0
+  @include respond-to(medium-screens)
+    font-size: 4rem
+  @include respond-to(large-screens)
+    font-size: 5rem
+
+.text-h4
+  font-size: 1.5rem
+  line-height: 1.2
+  margin-top: 0
+  @include respond-to(medium-screens)
+    font-size: 2rem
+  @include respond-to(large-screens)
+    font-size: 2.5rem
+
 .home-header
   display: flex
   flex-direction: column
