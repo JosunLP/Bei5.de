@@ -88,7 +88,7 @@ export default defineComponent({
         html: true,
         class: 'bg-primary text-white q-pa-md text-h6',
         ok: {
-          label: 'Buy?',
+          label: 'Buy',
           color: 'primary',
         },
         cancel: {
@@ -118,7 +118,7 @@ export default defineComponent({
         class: 'bg-primary text-white q-pa-md text-h6',
         ok: false,
         cancel: {
-          label: 'Zurück?',
+          label: 'Zurück',
           color: 'negative',
         },
       });
