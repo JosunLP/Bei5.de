@@ -9,7 +9,9 @@
         <q-card-section>
           <q-item>
             <q-item-section>
-              <q-card-title class="text-h5">{{ product.name }}</q-card-title>
+              <q-card-title class="text-h4 item-title">{{
+                product.name
+              }}</q-card-title>
               <q-card-main>
                 <q-img
                   :src="'/images/' + product.image"
@@ -26,6 +28,7 @@
                   class="q-mt-md details-button"
                   color="primary"
                   label="Details"
+                  @click="showDetails(product)"
                   v-close-popup
                 />
               </q-card-actions>
@@ -40,6 +43,8 @@
 <script lang="ts">
 import { Product } from 'src/models/product.model';
 import { defineComponent } from 'vue';
+import { useQuasar } from 'quasar';
+import { stm } from 'simple-toast-messages';
 
 export default defineComponent({
   name: 'ProductList',
@@ -51,12 +56,39 @@ export default defineComponent({
     },
   },
   setup() {
-    return {};
+    const $q = useQuasar();
+    const $toast = stm.getInstance();
+
+    function showDetails(p: Product) {
+      $q.dialog({
+        title: 'ProductDetails',
+        message: `<b>Product:</b> ${p.name} <br> <b>Price:</b> ${p.price} € <br> <b>Description:</b> ${p.description}`,
+        persistent: true,
+        html: true,
+        class: 'bg-primary text-white q-pa-md text-h6',
+        ok: {
+          label: 'Buy?',
+          color: 'primary',
+        },
+        cancel: {
+          label: 'Cancel',
+          color: 'negative',
+        },
+      })
+        .onOk(() => {
+          $toast.error('Ein fehler ist beim kauf aufgetreten!', 5000);
+        })
+        .onCancel(() => {
+          $toast.info('Der kauf wurde abgebrochen!', 5000);
+        });
+    }
+    return { showDetails };
   },
 });
 </script>
 
 <style lang="sass" scoped>
+@import '../css/_mixins'
 
 .component
   display: block
@@ -78,16 +110,19 @@ export default defineComponent({
   justify-content: center
   align-items: center
   margin: 0 auto
-  max-width: 1000px
   width: 100%
   padding: 0 10px
 
 .item
-  width: 300px
-  margin: 10px
+  width: 30rem
+  height: 18rem
+  margin: 1rem
   display: flexbox
   justify-content: center
   align-items: center
+
+  .item-title
+    @include notouch
 
   .details-button
     width: 100%
@@ -99,6 +134,7 @@ export default defineComponent({
     font-weight: bold
     color: #1976d2
     text-align: right
+    @include notouch
 
   .img
     width: 100%
@@ -106,4 +142,5 @@ export default defineComponent({
     overflow: hidden
     float: right
     margin: 0 auto
+    @include notouch
 </style>

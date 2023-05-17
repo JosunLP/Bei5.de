@@ -1,12 +1,19 @@
 export class Recension {
   public readonly id = crypto.randomUUID();
   public title: string;
-  public description: string;
+  public name: string;
+  public comment: string;
   public rating: number;
 
-  constructor(title: string, description: string, rating: number) {
+  constructor(
+    title: string,
+    name: string,
+    description: string,
+    rating: number
+  ) {
     this.title = title;
-    this.description = description;
+    this.name = name;
+    this.comment = description;
     this.rating = rating;
   }
 }

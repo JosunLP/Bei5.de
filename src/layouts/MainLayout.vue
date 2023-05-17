@@ -115,6 +115,7 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
+
 .title
   color: white
   text-decoration: none
@@ -123,4 +124,12 @@ export default defineComponent({
   &:hover
     color: white
     text-decoration: none
+
+header
+  background-color: $secondary
+  color: white
+  min-height: 5rem
+
+  .q-toolbar
+    min-height: 5rem
 </style>

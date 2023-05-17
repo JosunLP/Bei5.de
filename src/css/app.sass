@@ -1,1 +1,54 @@
 // app global css in Sass form
+@import '../css/_mixins'
+
+.text-h1
+  font-size: 4rem
+  @include respond-to(handhelds)
+    font-size: 2.5rem
+  @include respond-to(medium-screens)
+    font-size: 3rem
+  @include respond-to(wide-screens)
+    font-size: 8rem
+  text-align: center
+  margin-top: 5rem
+  line-height: 1.2
+  @include notouch
+
+.text-h2
+  text-decoration: underline $secondary solid 5px !important
+  @include respond-to(handhelds)
+    font-size: 2.5rem
+  @include respond-to(medium-screens)
+    font-size: 3rem
+  @include respond-to(wide-screens)
+    font-size: 8rem
+  text-align: center
+  margin-top: 5rem
+  line-height: 1.2
+  @include notouch
+
+.text-h3
+  font-size: 2rem
+  @include respond-to(handhelds)
+    font-size: 1.5rem
+  @include respond-to(medium-screens)
+    font-size: 2rem
+  @include respond-to(wide-screens)
+    font-size: 4rem
+  text-align: center
+  margin-top: 5rem
+  line-height: 1.2
+  @include notouch
+
+.text-h4
+  font-size: 1.5rem
+  @include respond-to(handhelds)
+    font-size: 1.2rem
+  @include respond-to(medium-screens)
+    font-size: 1.5rem
+  @include respond-to(wide-screens)
+    font-size: 3rem
+  text-align: center
+  margin-top: 5rem
+  line-height: 1.2
+  @include notouch

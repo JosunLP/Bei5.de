@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "name": "Product 1",
+      "price": 100,
+      "description": "This is product 1",
+      "image": "wood.jpg",
+      "category": "Category 1",
+      "quantity": 10,
+      "rating": 5,
+      "recensions": [
+        {
+          "title": "User 1",
+          "name": "User 1",
+          "rating": 5,
+          "comment": "This is a comment"
+        },
+        {
+          "title": "User 2",
+          "name": "User 2",
+          "rating": 4,
+          "comment": "This is a comment"
+        }
+      ]
+    },
+    {
+      "name": "Product 2",
+      "price": 200,
+      "description": "This is product 2",
+      "image": "wood.jpg",
+      "category": "Category 2",
+      "quantity": 20,
+      "rating": 4,
+      "recensions": [
+        {
+          "title": "User 1",
+          "name": "User 1",
+          "rating": 5,
+          "comment": "This is a comment"
+        },
+        {
+          "title": "User 2",
+          "name": "User 2",
+          "rating": 4,
+          "comment": "This is a comment"
+        }
+      ]
+    },
+    {
+      "name": "Product 3",
+      "price": 300,
+      "description": "This is product 3",
+      "image": "wood.jpg",
+      "category": "Category 3",
+      "quantity": 30,
+      "rating": 3,
+      "recensions": [
+        {
+          "title": "User 1",
+          "name": "User 1",
+          "rating": 5,
+          "comment": "This is a comment"
+        },
+        {
+          "title": "User 2",
+          "name": "User 2",
+          "rating": 4,
+          "comment": "This is a comment"
+        }
+      ]
+    },
+    {
+      "name": "Product 4",
+      "price": 400,
+      "description": "This is product 4",
+      "image": "wood.jpg",
+      "category": "Category 4",
+      "quantity": 40,
+      "rating": 2,
+      "recensions": [
+        {
+          "title": "User 1",
+          "name": "User 1",
+          "rating": 5,
+          "comment": "This is a comment"
+        },
+        {
+          "title": "User 2",
+          "name": "User 2",
+          "rating": 4,
+          "comment": "This is a comment"
+        }
+      ]
+    },
+    {
+      "name": "Product 5",
+      "price": 500,
+      "description": "This is product 5",
+      "image": "wood.jpg",
+      "category": "Category 5",
+      "quantity": 50,
+      "rating": 1,
+      "recensions": [
+        {
+          "title": "User 1",
+          "name": "User 1",
+          "rating": 5,
+          "comment": "This is a comment"
+        },
+        {
+          "title": "User 2",
+          "name": "User 2",
+          "rating": 4,
+          "comment": "This is a comment"
+        }
+      ]
+    }
+  ]
+}
