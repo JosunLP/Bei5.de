@@ -82,8 +82,8 @@ export default defineComponent({
 
     function showDetails(p: Product) {
       $q.dialog({
-        title: 'ProductDetails',
-        message: `<div><b>Product:</b> ${p.name} <br> <b>Price:</b> ${p.price} € <br> Rating: ${p.rating}/5 <br> <b>Description:</b> ${p.description}</div>`,
+        title: 'Produktdetails',
+        message: `<div><b>Produkt:</b> ${p.name} <br> <b>Preis:</b> ${p.price} € <br> Bewertung: ${p.rating}/5 <br> <b>Beschreibung:</b> ${p.description}</div>`,
         persistent: true,
         html: true,
         class: 'bg-primary text-white q-pa-md text-h6',
@@ -108,7 +108,7 @@ export default defineComponent({
       let messages = '';
 
       p.recensions.forEach((recension) => {
-        messages += `<div><div><b>Title:</b> ${recension.title}</div><b>Author:</b> ${recension.name} <br> <b>Rating:</b> ${recension.rating}/5 <br> <b>Text:</b> ${recension.comment}</div><br><hr class="solid">`;
+        messages += `<div><div><b>Title:</b> ${recension.title}</div><b>Autor:</b> ${recension.name} <br> <b>Bewertung:</b> ${recension.rating}/5 <br> <b>Kommentar:</b> ${recension.comment}</div><br><hr class="solid">`;
       });
       $q.dialog({
         title: '<h4>Rezensionen</h4><hr class="solid">',

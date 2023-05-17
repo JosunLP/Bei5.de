@@ -29,8 +29,11 @@
         />
       </q-list>
       <q-item-label footer class="dev-info">
-        Developed by <a href="https://josunlp.de">JosunLP.de</a> <br />
-        <a href="https://github.com/JosunLP/Bei5.de">Source Code</a>
+        Developed by
+        <a href="https://josunlp.de" target="_blank">JosunLP.de</a> <br />
+        <a href="https://github.com/JosunLP/Bei5.de" target="_blank"
+          >Source Code</a
+        >
       </q-item-label>
     </q-drawer>
 
