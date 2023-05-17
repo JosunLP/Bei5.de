@@ -123,6 +123,8 @@ export default defineComponent({
 
   .item-title
     @include notouch
+    font-size: 2rem
+    margin: 0 auto
 
   .details-button
     width: 100%
