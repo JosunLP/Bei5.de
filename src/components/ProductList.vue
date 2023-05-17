@@ -45,6 +45,13 @@
                   @click="showDetails(product)"
                   v-close-popup
                 />
+                <q-btn
+                  class="q-mt-md details-button"
+                  color="secondary"
+                  label="Rezensionen"
+                  @click="showRecensions(product)"
+                  v-close-popup
+                />
               </q-card-actions>
             </q-item-section>
           </q-item>
@@ -96,7 +103,28 @@ export default defineComponent({
           $toast.info('Der Kauf wurde abgebrochen!', 5000);
         });
     }
-    return { showDetails };
+
+    function showRecensions(p: Product) {
+      let messages = '';
+
+      p.recensions.forEach((recension) => {
+        messages += `<div><div><b>Title:</b> ${recension.title}</div><b>Author:</b> ${recension.name} <br> <b>Rating:</b> ${recension.rating}/5 <br> <b>Text:</b> ${recension.comment}</div><br><hr class="solid">`;
+      });
+      $q.dialog({
+        title: '<h4>Rezensionen</h4><hr class="solid">',
+        message: `${messages}`,
+        persistent: true,
+        html: true,
+        class: 'bg-primary text-white q-pa-md text-h6',
+        ok: false,
+        cancel: {
+          label: 'Zurück?',
+          color: 'negative',
+        },
+      });
+    }
+
+    return { showDetails, showRecensions };
   },
 
   methods: {},
@@ -145,7 +173,7 @@ export default defineComponent({
     padding-bottom: 1rem
 
   .details-button
-    width: 100%
+    width: 50%
     margin: 0 auto
 
   .price
