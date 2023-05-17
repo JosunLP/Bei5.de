@@ -22,6 +22,20 @@
               </q-card-main>
               <q-card-separator />
               <label class="price">{{ product.price }} €</label>
+              <label class="rating">
+                <div class="q-pa-md">
+                  <q-rating
+                    v-model="product.rating"
+                    max="5"
+                    size="2em"
+                    color="yellow"
+                    icon="star_border"
+                    icon-selected="star"
+                    icon-half="star_half"
+                    readonly
+                    no-dimming
+                  ></q-rating></div
+              ></label>
               <q-card-separator />
               <q-card-actions>
                 <q-btn
@@ -62,7 +76,7 @@ export default defineComponent({
     function showDetails(p: Product) {
       $q.dialog({
         title: 'ProductDetails',
-        message: `<b>Product:</b> ${p.name} <br> <b>Price:</b> ${p.price} € <br> <b>Description:</b> ${p.description}`,
+        message: `<div><b>Product:</b> ${p.name} <br> <b>Price:</b> ${p.price} € <br> <b>Description:</b> ${p.description}</div>`,
         persistent: true,
         html: true,
         class: 'bg-primary text-white q-pa-md text-h6',
@@ -84,6 +98,8 @@ export default defineComponent({
     }
     return { showDetails };
   },
+
+  methods: {},
 });
 </script>
 
@@ -101,7 +117,7 @@ export default defineComponent({
     text-align: center
     font-size: 2rem
     font-weight: bold
-    margin: 10px 0
+    margin: 0 auto
 
 #productList
   display: flex
@@ -115,7 +131,7 @@ export default defineComponent({
 
 .item
   width: 30rem
-  height: 18rem
+  height: 23rem
   margin: 1rem
   display: flexbox
   justify-content: center
@@ -124,7 +140,9 @@ export default defineComponent({
   .item-title
     @include notouch
     font-size: 2rem
+    font-weight: bold
     margin: 0 auto
+    padding-bottom: 1rem
 
   .details-button
     width: 100%
@@ -135,6 +153,12 @@ export default defineComponent({
     width: 100%
     font-weight: bold
     color: #1976d2
+    text-align: right
+    margin-top: 1rem
+    @include notouch
+
+  .rating
+    width: 100%
     text-align: right
     @include notouch
 

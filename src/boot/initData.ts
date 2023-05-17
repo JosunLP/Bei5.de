@@ -32,7 +32,6 @@ export class InitData {
           product.image,
           product.category,
           product.quantity,
-          product.rating,
           product.recensions.map(
             (recension) =>
               new Recension(

@@ -1,13 +1,12 @@
 {
   "products": [
     {
-      "name": "Product 1",
+      "name": "Der Klassiker!",
       "price": 100,
-      "description": "This is product 1",
+      "description": "Tauchen Sie ein in die zeitlose Einfachheit und natürliche Schönheit des klassischen Beißholzes aus Holz. Dieses traditionelle Kauwerkzeug bietet Ihnen ein authentisches und beruhigendes Kauerlebnis, das die Sinne anspricht. Hergestellt aus hochwertigem Holz, ist dieses Beißholz langlebig, glatt und angenehm zu halten. Die einfache, aber effektive Formgebung ermöglicht es Ihnen, Ihren Kiefer zu trainieren, Stress abzubauen und den Drang zu kauen zu befriedigen. Ob für medizinische Zwecke, zum Zahnen von Babys oder als vielseitiges Werkzeug in Ihren persönlichen Ritualen und Gewohnheiten, dieses klassische Holzbeißholz wird Sie mit seiner natürlichen Anziehungskraft und unverwechselbaren Wärme begeistern. Greifen Sie zum Klassiker und genießen Sie das zeitlose Vergnügen des Kauens!",
       "image": "wood.jpg",
-      "category": "Category 1",
+      "category": "Medical",
       "quantity": 10,
-      "rating": 5,
       "recensions": [
         {
           "title": "User 1",
@@ -30,7 +29,6 @@
       "image": "wood.jpg",
       "category": "Category 2",
       "quantity": 20,
-      "rating": 4,
       "recensions": [
         {
           "title": "User 1",
@@ -53,7 +51,6 @@
       "image": "wood.jpg",
       "category": "Category 3",
       "quantity": 30,
-      "rating": 3,
       "recensions": [
         {
           "title": "User 1",
@@ -76,7 +73,6 @@
       "image": "wood.jpg",
       "category": "Category 4",
       "quantity": 40,
-      "rating": 2,
       "recensions": [
         {
           "title": "User 1",
@@ -99,7 +95,6 @@
       "image": "wood.jpg",
       "category": "Category 5",
       "quantity": 50,
-      "rating": 1,
       "recensions": [
         {
           "title": "User 1",
