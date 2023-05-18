@@ -11,10 +11,13 @@
           @click="toggleLeftDrawer"
         />
         <q-toolbar-title
-          ><a href="/" class="title"> Bei5.de </a></q-toolbar-title
-        >
+          ><a href="/" class="title"> Bei5.de </a>
+          <label class="title-label"
+            >Ein fiktiver Shop für den Pepega Island Rollenspiel Server!</label
+          >
+        </q-toolbar-title>
 
-        <div>Shop v.{{ version }}</div>
+        <div class="version">Shop v.{{ version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -122,15 +125,25 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
+@import '../css/_mixins'
 
 .title
   color: white
   text-decoration: none
-  font-size: 1.5em
   font-weight: bold
+  display: block
+  height: 1rem
   &:hover
     color: white
     text-decoration: none
+
+  a
+    font-size: 1.5em
+
+.title-label
+  color: white
+  font-size: 0.5em
+  @include notouch
 
 header
   background-color: $secondary
@@ -139,6 +152,9 @@ header
 
   .q-toolbar
     min-height: 5rem
+
+  .version
+    @include notouch
 
 .dev-info
   font-size: 0.8em

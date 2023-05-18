@@ -32,16 +32,16 @@
       height="300px"
       class="bg-primary text-white shadow-1 rounded-borders"
     >
-      <q-carousel-slide name="slide-1" class="flex flex-center text-h6">
+      <q-carousel-slide name="slide-1" class="flex flex-center text-h6 slide">
         <h3>Klassische Beißhölzer</h3>
       </q-carousel-slide>
-      <q-carousel-slide name="slide-2" class="flex flex-center text-h6">
+      <q-carousel-slide name="slide-2" class="flex flex-center text-h6 slide">
         <h3>Beißhölzer mit Geschmack</h3>
       </q-carousel-slide>
-      <q-carousel-slide name="slide-3" class="flex flex-center text-h6">
+      <q-carousel-slide name="slide-3" class="flex flex-center text-h6 slide">
         <h3>Innovationen!</h3>
       </q-carousel-slide>
-      <q-carousel-slide name="slide-4" class="flex flex-center text-h6">
+      <q-carousel-slide name="slide-4" class="flex flex-center text-h6 slide">
         <h3>Für den Spielerischen Ansatz!</h3>
       </q-carousel-slide>
     </q-carousel>
@@ -116,4 +116,8 @@ export default defineComponent({
 
   &:hover
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
+
+.slide
+  h3
+    @include notouch
 </style>

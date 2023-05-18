@@ -159,7 +159,7 @@ export default defineComponent({
 
 .item
   width: 30rem
-  height: 23rem
+  height: 24rem
   margin: 1rem
   display: flexbox
   justify-content: center
